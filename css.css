@@ -1,0 +1,305 @@
+*{margin: 0;padding: 0;}
+body{background-color: #f3f5f7;}
+a{text-decoration: none;color: black}
+a:hover{color: #2b9feb}
+ul{list-style: none}
+.floatL{float: left}
+.floatR{float: right}
+.clearBoth{clear: both}
+input{border: 0;outline: 0;box-sizing: border-box}
+header{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+header .logo{
+    margin-right: 52px;
+    width: 195px;
+    height: 43px;
+    background: url(images/sptext2.png) 0 0 no-repeat;
+}
+header .logo a{
+    width: inherit;
+    height: inherit;
+    display: inline-block;
+}
+.banxin{margin: 0 auto;width: 1200px;}
+nav.banxin{
+    height: 42px;
+    width: 1366px;
+    margin-top: 30px;
+}
+.navbar ul li{
+    float: left;
+    line-height: 42px;
+}
+.navbar ul li a{
+    padding: 0 10px;
+    font-size: 0.85em;
+    display: inline-block;
+    height: 42px;
+}
+.navbar ul li a:hover{
+    border-bottom: #2b9feb 2px solid;
+}
+.search{
+    width: 410px;/* 360+50*/
+    height: 38px;
+    border: #2b9feb 1px solid;
+    font-size: 0;
+    margin-right: 30px;
+}
+.search input[type="text"]{
+    width: 360px;
+    height: 38px;
+    font-size: 16px;
+    padding-left: 20px;
+    vertical-align: top;
+    line-height: 38px;
+}
+.search input[type="button"]{
+    background: #00a4ff url(images/fangdajin_03.png) center center no-repeat;
+    width: 50px;
+    height: 38px;
+    font-size: 20px;
+    color: #f3f5f7;
+    cursor: pointer;
+}
+.pesonal {
+    height: 42px;
+    line-height: 42px;
+}
+.pesonal span{
+    background: #fff url(images/20130502185029_EkKYh拷贝.png) center center no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-size: 80px 80px;
+
+}
+.pesonal a:nth-child(3) img{
+    width: 100px;
+    height: 100px;
+
+}
+.pesonal>*{
+    margin-left: 20px;
+}
+/*banner*/
+.banner{
+    height: 420px;
+    width: 100%;
+    background-color: #1c036c;
+}
+.banner-in{
+    height: 420px;
+    background:  url(images/banner2.png) 0 0 no-repeat;
+    position: relative;
+}
+.circle{
+    width: 180px;
+    height: 22px;
+    position: absolute;
+    left: 600px;
+    bottom: 20px;
+    margin-left: -90px;
+}
+.circle li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 6px 8px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.3);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.circle li:hover{
+    background-color: #fff;
+    transform: scale(1.5,1);
+    border-radius: 40%;
+}
+.slidenav{
+    height: inherit;
+    width: 190px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.slidenav a{
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #f3f5f7;
+    padding: 0 20px;
+    display: block;
+    line-height: 45px;
+}
+.slidenav a:hover{
+    color: #2b9feb;
+}
+.kebiao{
+    width: 230px;
+    height: 300px;
+    background-color: #f3f5f7;
+    margin-top: 50px;
+}
+.kebiao dt{
+    height: 50px;
+    width: 100%;
+    background-color: #6dcdff;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+.kebiao dd{
+    width: 193px;
+    height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid #999;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.kebiao dd p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #666;
+}
+.kebiao dd:last-child {
+    border: 0;
+    width: 198px;
+}
+.kebiao dd a{
+    
+    display: block;
+    line-height: 38px;
+    text-align: center;
+    width: 198px;
+    height: 38px;
+    color: #2b9feb;
+    border: #2b9feb 1px solid;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.recommend{
+    height: 60px;
+    margin-top: 10px;
+    box-shadow: 0 2px 2px rgba(6,6,6,0.25);
+    line-height: 60px;
+}
+.recommend a{
+    padding: 0 35px;
+    border-right: #666666 1px solid;
+}
+.recommend a:hover{
+    color: #2b9feb;
+}
+.recommend a:last-child{
+    float: right;
+    border-right: 0;
+    color: #2b9feb;
+    font-size: 14px;
+}
+.recommend-product{
+    margin-top: 35px;
+}
+.recom-hd{
+    height: 40px;
+}
+.recom-hd a{
+    font-size: 0.5em;
+    font-weight: 300;
+    vertical-align: bottom;
+    margin-right: 30px;
+}
+.recom-bd li{
+    width: 228px;
+    height: 270px;
+    background-color: #ffffff;
+    float: left;
+    margin: 0 15px 15px 0;
+    transition: all 0.3s;
+    position: relative;
+}
+.recom-bd li:nth-child(4){
+}
+.recom-bd li div{
+    width: inherit;
+    overflow: hidden;
+}
+.recom-bd li span{
+    background: url(images/sptext2.png) -56px -72px no-repeat;
+    height: 24px;
+    width: 40px;
+    position: absolute;
+    top: 15px;
+    right: -10px;
+}
+.recom-bd li .new{
+    background-position: 0 -73px;
+}
+.recom-bd li:nth-child(5n){
+    margin-right: 0;
+}
+.recom-bd li:hover{
+    box-shadow: 0px 3px 3px 2px rgba(0,0,0,0.4);
+    transform: translateY(-10px);
+
+}
+.recom-bd h5, .recom-bd p{
+    padding: 0 20px 0 24px;
+}
+.recom-bd h5{
+    margin: 12px 0;
+    font-weight: normal;
+    line-height: 22px;
+}
+.recom-bd p{
+    font-size: 0.5em;
+    margin-top: 15px;
+    color: #8a8a8a;
+    cursor: default;
+}
+.recom-bd p em{
+    font-style: normal;
+    color: #ffaa4e;
+}
+footer{
+    width: 100%;
+    background-color: #ffffff;
+    height: 280px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.foot{
+    margin-top: 34px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.foot p {
+    margin: 34px 0 26px 0;
+}
+.footL a{
+    color: #2b9feb;
+    padding: 8px 28px;
+    border: #2b9feb 2px solid;
+}
+.footL a:hover{
+    background: -webkit-linear-gradient(bottom,#37beff,#f3f5f7);
+    color: #1c036c;
+}
+.footR dl{
+    float: left;
+    margin:0 75px;
+}
+dt{
+    height: 34px;
+    font-weight: bold;
+}
+.footR dl dd{
+    font-size: 0.7em;
+    font-weight: lighter;
+    line-height: 25px;
+}
